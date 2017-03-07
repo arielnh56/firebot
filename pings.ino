@@ -7,8 +7,8 @@ uint8_t currentPing = 0;          // Keeps track of which sensor is active.
 unsigned long int lastPing;
 
 NewPing sonar[SONAR_NUM] = {     // Sensor object array.
-  NewPing(frontPing_p, frontPing_p, MAX_FRONT_DISTANCE), // Each sensor's trigger pin, echo pin, and max distance to ping.
   NewPing(leftPing_p, leftPing_p, MAX_SIDE_DISTANCE),
+  NewPing(frontPing_p, frontPing_p, MAX_FRONT_DISTANCE), // Each sensor's trigger pin, echo pin, and max distance to ping.
   NewPing(rightPing_p, rightPing_p, MAX_SIDE_DISTANCE)
 };
 

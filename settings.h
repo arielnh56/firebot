@@ -17,7 +17,7 @@
 #define rightTrack_p 53
 #define leftButton   28
 #define rightButton  29
-#define frontPing_p  A10
+#define frontPing_p  A6
 #define leftPing_p   A8
 #define rightPing_p  A9
 #define pan_p        41
